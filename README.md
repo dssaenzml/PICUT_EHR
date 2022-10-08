@@ -9,3 +9,15 @@ The surging adoption of electronic health records (EHR) systems produces ever-la
 ## Data
 
 The data for this study was obtained from the Medical Information Mart for Intensive Care (MIMIC-IV) v1.0. It can be found [here](https://physionet.org/content/mimiciv/1.0/).
+
+## Installation
+
+Run the following command in a python 3.6 or older environment:
+
+```
+pip install -r requirements.txt
+```
+
+## Training
+
+You may run the python scripts in the pretraining and finetuning folders with the input data. All parameters are explain in the respective scripts.
